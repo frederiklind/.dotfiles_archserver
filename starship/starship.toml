@@ -7,11 +7,11 @@
 [username]
 show_always = true
 style_user = "fg:bold #181926 bg:#8aadf4"
-format = '[](#8aadf4)[ $user ]($style)[ ](#8aadf4)'
+format = '[](#8aadf4)[ $user ]($style)[](#8aadf4 bg:#363a4f)'
 
 [hostname]
 ssh_only = true
-format = "[󰢹 $hostname](fg:#91d7e3 bg:#181926)[](fg:#181926)"
+format = "[ 󰢹 $hostname ](fg:bold #8bd5ca bg:#363a4f)[ ](fg:#363a4f)"
 disabled = false
 
 [directory]
