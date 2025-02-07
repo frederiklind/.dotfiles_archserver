@@ -86,5 +86,8 @@ alias zathura="~/.dotfiles/scripts/zathura.sh"      # open zathura
 alias settings="~/.dotfiles/.settings/settings.sh"  # open settings.sh
 alias ff="fastfetch"                                # fastfetch alias (sys info)
 
+echo
+fastfetch
+echo
 
 eval "$(starship init bash)"   # setup starship prompt
