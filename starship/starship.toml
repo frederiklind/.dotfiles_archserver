@@ -11,7 +11,8 @@ format = '[](#8aadf4)[ $user ]($style)[ ](#8aadf4)'
 
 [hostname]
 ssh_only = true
-format = ""
+format = "[󰢹 $hostname](fg:#91d7e3 bg:#181926)[](fg:#181926)"
+disabled = false
 
 [directory]
 truncation_length = 3
