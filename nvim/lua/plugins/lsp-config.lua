@@ -11,17 +11,16 @@ return {
             require("mason-lspconfig").setup({
                 ensure_installed = {
                     "lua_ls",
-                    "rust_analyzer",
-                    "csharp_ls",
-                    "cssls",
-                    "cssmodules_ls",
-                    "html",
-                    "jsonls",
-                    "ts_ls",
-                    "pylsp",
-                    "jdtls",
-                    "texlab",
-                    "clangd",
+                    -- "rust_analyzer",
+                    -- "csharp_ls",
+                    -- "cssls",
+                    -- "cssmodules_ls",
+                    -- "html",
+                    -- "jsonls",
+                    -- "ts_ls",
+                    -- "pylsp",
+                    -- "jdtls",
+                    -- "clangd",
                 },
             })
         end,
@@ -55,39 +54,39 @@ return {
                     },
                 },
             })
-            lspconfig.rust_analyzer.setup({
-                capabilities = capabilities,
-            })
-            lspconfig.csharp_ls.setup({
-                capabilities = capabilities,
-            })
-            lspconfig.cssls.setup({
-                capabilities = capabilities,
-            })
-            lspconfig.cssmodules_ls.setup({
-                capabilities = capabilities,
-            })
-            lspconfig.html.setup({
-                capabilities = capabilities,
-            })
-            lspconfig.jdtls.setup({
-                capabilities = capabilities,
-            })
-            lspconfig.jsonls.setup({
-                capabilities = capabilities,
-            })
-            lspconfig.pylsp.setup({
-                capabilities = capabilities,
-            })
-            lspconfig.ts_ls.setup({
-                capabilities = capabilities,
-            })
-            lspconfig.jsonls.setup({
-                capabilities = capabilities,
-            })
-            lspconfig.clangd.setup({
-                capabilities = capabilities,
-            })
+            -- lspconfig.rust_analyzer.setup({
+            --     capabilities = capabilities,
+            -- })
+            -- lspconfig.csharp_ls.setup({
+            --     capabilities = capabilities,
+            -- })
+            -- lspconfig.cssls.setup({
+            --     capabilities = capabilities,
+            -- })
+            -- lspconfig.cssmodules_ls.setup({
+            --     capabilities = capabilities,
+            -- })
+            -- lspconfig.html.setup({
+            --     capabilities = capabilities,
+            -- })
+            -- lspconfig.jdtls.setup({
+            --     capabilities = capabilities,
+            -- })
+            -- lspconfig.jsonls.setup({
+            --     capabilities = capabilities,
+            -- })
+            -- lspconfig.pylsp.setup({
+            --     capabilities = capabilities,
+            -- })
+            -- lspconfig.ts_ls.setup({
+            --     capabilities = capabilities,
+            -- })
+            -- lspconfig.jsonls.setup({
+            --     capabilities = capabilities,
+            -- })
+            -- lspconfig.clangd.setup({
+            --     capabilities = capabilities,
+            -- })
 
             vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
             vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
