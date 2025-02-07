@@ -1,0 +1,215 @@
+# 
+#  █▀ ▀█▀ ▄▀█ █▀█ █▀ █░█ █ █▀█   █▀▀ █▀█ █▄░█ █▀▀ █ █▀▀
+#  ▄█ ░█░ █▀█ █▀▄ ▄█ █▀█ █ █▀▀   █▄▄ █▄█ █░▀█ █▀░ █ █▄█
+#
+
+
+[username]
+show_always = true
+style_user = "fg:bold #181926 bg:#8aadf4"
+format = '[](#8aadf4)[󱃋 $user ]($style)[ ](#8aadf4)'
+
+[directory]
+truncation_length = 3
+truncation_symbol = "…/"
+home_symbol = "~"
+read_only = " "
+format = "[($style)$path ](bold #6e738d)[$read_only](#ed8796)"
+
+[character]
+success_symbol = "[❯](bold #8bd5ca)"
+error_symbol = "[❯](bold #ed8796)"
+vimcmd_symbol = "[<](bold green)"
+
+[git_commit]
+tag_symbol = " tag "
+
+[git_status]
+ahead = ">"
+behind = "<"
+diverged = "<>"
+renamed = "r"
+deleted = "󰧧"
+
+[git_branch]
+style = "fg:#91d7e3"
+symbol = "󰘬 "
+format = "[$symbol$branch]($style) "
+
+[gradle]
+symbol = " "
+
+[aws]
+symbol = "aws "
+
+[bun]
+symbol = "bun "
+
+[c]
+symbol = " "
+
+[cobol]
+symbol = "cobol "
+
+[conda]
+symbol = "conda "
+
+[crystal]
+symbol = "cr "
+
+[cmake]
+symbol = "cmake "
+
+[daml]
+symbol = "daml "
+
+[dart]
+symbol = " "
+
+[deno]
+symbol = "deno "
+
+[dotnet]
+symbol = "󰪮 "
+
+
+[docker_context]
+symbol = "󰡨 "
+
+[elixir]
+symbol = "exs "
+
+[elm]
+symbol = "elm "
+
+[golang]
+symbol = " "
+
+[guix_shell]
+symbol = "guix "
+
+[hg_branch]
+symbol = "hg "
+
+[java]
+symbol = " "
+style = "fg:#f5a97f"
+
+[julia]
+symbol = "jl "
+
+[kotlin]
+symbol = "󱈙 "
+
+[lua]
+symbol = "󰢱 "
+
+[nodejs]
+symbol = "󰎙 "
+style = "fg:bold #a6da95"
+
+[memory_usage]
+symbol = "memory "
+
+[meson]
+symbol = "meson "
+
+[nim]
+symbol = "nim "
+
+[nix_shell]
+symbol = "nix "
+
+[ocaml]
+symbol = " "
+
+[opa]
+symbol = "opa "
+
+[os.symbols]
+Alpine = "alp "
+Amazon = "amz "
+Android = "andr "
+Arch = "rch "
+CentOS = "cent "
+Debian = "deb "
+DragonFly = "dfbsd "
+Emscripten = "emsc "
+EndeavourOS = "ndev "
+Fedora = "fed "
+FreeBSD = "fbsd "
+Garuda = "garu "
+Gentoo = "gent "
+HardenedBSD = "hbsd "
+Illumos = "lum "
+Linux = "lnx "
+Macos = "mac "
+Manjaro = "mjo "
+Mariner = "mrn "
+MidnightBSD = "mid "
+Mint = "mint "
+NetBSD = "nbsd "
+NixOS = "nix "
+OpenBSD = "obsd "
+openSUSE = "osuse "
+OracleLinux = "orac "
+Pop = "pop "
+Raspbian = "rasp "
+Redhat = "rhl "
+RedHatEnterprise = "rhel "
+Redox = "redox "
+Solus = "sol "
+SUSE = "suse "
+Ubuntu = "ubnt "
+Unknown = "unk "
+Windows = "win "
+
+[package]
+symbol = "󰏖 "
+style = "fg:bold #f5a97f"
+
+[perl]
+symbol = " "
+
+[php]
+symbol = "󰌟 "
+
+[pulumi]
+symbol = "pulumi "
+
+[purescript]
+symbol = "purs "
+
+[python]
+symbol = "󰌠 "
+style = "fg:#eed49f"
+
+[raku]
+symbol = "raku "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = "󱘗 "
+style = "fg:bold #8bd5ca"
+
+[scala]
+symbol = " "
+
+[spack]
+symbol = "spack "
+
+[sudo]
+symbol = "sudo "
+
+[swift]
+symbol = "swift "
+
+[terraform]
+symbol = "󱁢 "
+
+[zig]
+symbol = "󰵁 "
+
+
