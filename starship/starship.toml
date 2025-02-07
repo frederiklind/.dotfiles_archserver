@@ -9,6 +9,10 @@ show_always = true
 style_user = "fg:bold #181926 bg:#8aadf4"
 format = '[](#8aadf4)[ $user ]($style)[ ](#8aadf4)'
 
+[hostname]
+ssh_only = true
+format = ""
+
 [directory]
 truncation_length = 3
 truncation_symbol = "…/"
