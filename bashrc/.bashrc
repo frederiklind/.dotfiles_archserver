@@ -68,6 +68,9 @@ alias tmuxsrc="tmux source-file ~/.config/tmux/tmux.conf"   # source tmux config
 alias tma="tmux attach"                                     # attach to tmux session   
 alias sesh="tmux new -s"                                    # create new tmux session
 
+alias dv="docker volume ls"
+alias ds="docker stats"
+
 # network -----------------------------------------------------------------------
 
 alias ports="netstat -tuln"                       # list open ports
